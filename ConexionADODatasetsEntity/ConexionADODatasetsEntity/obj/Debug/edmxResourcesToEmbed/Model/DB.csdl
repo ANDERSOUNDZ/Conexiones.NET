@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ConexionPruebaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Clase">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="idEstudiante" Type="Int32" />
+    <Property Name="nombreClase" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Nombres" Relationship="Self.FK__Clase__idEstudia__267ABA7A" FromRole="Clase" ToRole="Nombres" />
+  </EntityType>
+  <EntityType Name="Nombres">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Apellido" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Clase" Relationship="Self.FK__Clase__idEstudia__267ABA7A" FromRole="Nombres" ToRole="Clase" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK__Clase__idEstudia__267ABA7A">
+    <End Role="Nombres" Type="Self.Nombres" Multiplicity="0..1" />
+    <End Role="Clase" Type="Self.Clase" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Nombres">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Clase">
+        <PropertyRef Name="idEstudiante" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ConexionPruebaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Clase" EntityType="Self.Clase" />
+    <EntitySet Name="Nombres" EntityType="Self.Nombres" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <AssociationSet Name="FK__Clase__idEstudia__267ABA7A" Association="Self.FK__Clase__idEstudia__267ABA7A">
+      <End Role="Nombres" EntitySet="Nombres" />
+      <End Role="Clase" EntitySet="Clase" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

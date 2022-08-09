@@ -1,0 +1,13 @@
+C:\Users\ander\Desktop\Desarrollo\ConexionAdo\ConexionADODatasetsEntity\ConexionADODatasetsEntity\bin\Debug\ConexionADODatasetsEntity.exe.config
+C:\Users\ander\Desktop\Desarrollo\ConexionAdo\ConexionADODatasetsEntity\ConexionADODatasetsEntity\bin\Debug\ConexionADODatasetsEntity.exe
+C:\Users\ander\Desktop\Desarrollo\ConexionAdo\ConexionADODatasetsEntity\ConexionADODatasetsEntity\bin\Debug\ConexionADODatasetsEntity.pdb
+C:\Users\ander\Desktop\Desarrollo\ConexionAdo\ConexionADODatasetsEntity\ConexionADODatasetsEntity\obj\Debug\ConexionADODatasetsEntity.csproj.AssemblyReference.cache
+C:\Users\ander\Desktop\Desarrollo\ConexionAdo\ConexionADODatasetsEntity\ConexionADODatasetsEntity\obj\Debug\ConexionADODatasetsEntity.csproj.SuggestedBindingRedirects.cache
+C:\Users\ander\Desktop\Desarrollo\ConexionAdo\ConexionADODatasetsEntity\ConexionADODatasetsEntity\obj\Debug\ConexionADODatasetsEntity.csproj.CoreCompileInputs.cache
+C:\Users\ander\Desktop\Desarrollo\ConexionAdo\ConexionADODatasetsEntity\ConexionADODatasetsEntity\obj\Debug\ConexionADODatasetsEntity.exe
+C:\Users\ander\Desktop\Desarrollo\ConexionAdo\ConexionADODatasetsEntity\ConexionADODatasetsEntity\obj\Debug\ConexionADODatasetsEntity.pdb
+C:\Users\ander\Desktop\Desarrollo\ConexionAdo\ConexionADODatasetsEntity\ConexionADODatasetsEntity\bin\Debug\EntityFramework.dll
+C:\Users\ander\Desktop\Desarrollo\ConexionAdo\ConexionADODatasetsEntity\ConexionADODatasetsEntity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ander\Desktop\Desarrollo\ConexionAdo\ConexionADODatasetsEntity\ConexionADODatasetsEntity\bin\Debug\EntityFramework.xml
+C:\Users\ander\Desktop\Desarrollo\ConexionAdo\ConexionADODatasetsEntity\ConexionADODatasetsEntity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ander\Desktop\Desarrollo\ConexionAdo\ConexionADODatasetsEntity\ConexionADODatasetsEntity\obj\Debug\ConexionADODatasetsEntity.csproj.CopyComplete
